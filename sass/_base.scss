@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #373b69;
+  --color-primary-dark: #22254b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1 REM = 10px
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--color-primary-dark);
+}

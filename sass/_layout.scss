@@ -1,0 +1,17 @@
+.header {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+
+  //background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
